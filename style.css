@@ -1,0 +1,173 @@
+.ext-container { 
+    font-family: 'Space Mono', monospace;
+    margin: auto;
+    height: auto;
+    background-color: hsl(185, 41%, 84%);     
+    min-width: 375px; 
+    max-width: 1366px;
+}
+
+.calculator {
+    display: flex;    
+    flex-wrap: wrap; 
+    background-color: white;
+    min-width: 375px;
+    max-width: 770px;
+    border-radius: 20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.imgLogo {
+    display: flex;
+    align-content: center;
+    display: flex;    
+    flex-wrap: wrap; 
+    width: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+p {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    color: hsl(184, 14%, 56%);
+}
+
+h2 {
+    display: inline-block;
+    color: hsl(172, 67%, 45%);
+}
+
+h5 {
+    display: inline-block;
+    color: hsl(189, 41%, 97%);
+}
+
+h6 {
+    color: hsl(184, 14%, 56%);
+    font-weight: bold;
+}
+
+.right {
+    border-radius: 10px;
+    background-color: hsl(183, 100%, 15%);
+    padding: 30px;
+    min-width: 335px;
+    margin: 20px;
+}
+
+.left {
+    padding: 30px;
+    min-width: 335px;
+}
+
+#money {
+    display: inline-block;
+    width: 100%;
+    background-color: hsl(189, 41%, 97%);
+    justify-content: right;
+    font-size: 19px;
+    font-weight: bold;
+    background-image: url("./images/icon-dollar.svg");
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: 50%;
+    text-align: right;
+    margin-bottom: 10px;
+    border-color: #FFFFFF
+}
+
+#people {
+    display: inline-block;
+    width: 100%;
+    background-color: hsl(189, 41%, 97%);
+    justify-content: right;
+    font-size: 19px;
+    font-weight: bold;
+    background-image: url("./images/icon-person.svg");
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: 50%;
+    text-align: right;
+    border-color: #FFFFFF
+}
+
+.tipgroup {
+    display: grid;
+}
+
+.result {
+    width: 20%;
+}
+
+.group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    margin-bottom: 10px;
+}
+
+.small {
+    font-size: 19px;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+}
+  
+.small:hover {
+    font-size: 18px;
+    background-color:hsl(172, 67%, 45%);
+    width: 100px;
+    height: 40px;
+}
+
+.custom {
+    font-size: 19px;
+    font-weight: bold;
+    display: inline-block;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+#reset {
+    font-size: 19px;
+    font-weight: bold;
+    display: inline-block;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(172, 67%, 45%);
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#reset:hover {
+    background-color:hsl(185, 41%, 84%);
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#reset:focus {
+    background-color:hsl(185, 41%, 84%);
+
+}
+
+.invisible {
+    margin-top: 50px;
+}
