@@ -54,9 +54,15 @@ function calculate(){
         percentage = Number(document.getElementById('custom').value) / 100;
     }
     if (money === 0 || people === 0 || percentage === 0) {
-        document.getElementById("money").style.cssText  = "border-color: #FF0000";
-        document.getElementById("people").style.cssText  = "border-color: #FF0000";
-        document.getElementById("percentage").style.cssText  = "background-color: #FF0000";
+        if (money === 0) {
+            document.getElementById("money").style.cssText  = "border-color: #FF0000";
+        }
+        if (people === 0) {
+            document.getElementById("people").style.cssText  = "border-color: #FF0000";
+        }
+        if (percentage === 0) {
+            document.getElementById("percentage").style.cssText  = "background-color: #FF0000";
+        }
         return;
     }
     
