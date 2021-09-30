@@ -48,11 +48,12 @@ function calculate(){
     var people = Number(document.getElementById("people").value);
     document.getElementById("money").style.cssText  = "border-color: #FFFFFF";
     document.getElementById("people").style.cssText  = "border-color: #FFFFFF";
+    document.getElementById("percentage").style.cssText  = "background-color: #FFFFFF";
 
     if (percentage === 0 && Number(document.getElementById('custom').value) !== 0) {
         percentage = Number(document.getElementById('custom').value) / 100;
     }
-    else if (money === 0 && people === 0 && percentage === 0) {
+    if (money === 0 || people === 0 || percentage === 0) {
         document.getElementById("money").style.cssText  = "border-color: #FF0000";
         document.getElementById("people").style.cssText  = "border-color: #FF0000";
         document.getElementById("percentage").style.cssText  = "background-color: #FF0000";
